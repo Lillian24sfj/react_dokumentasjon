@@ -14,7 +14,7 @@ const App = () => {
         <StaticComponent />
         <PropsComponent title="Eksempel på Props" description="Denne komponenten tar imot properties." />
         <WrapperComponent>
-          <p className="text-lg">Dette er innhold inni en wrapper-komponent.</p>
+          <p className="text-lg text-gray-900">Dette er innhold inni en wrapper-komponent.</p>
         </WrapperComponent>
         <ListComponent items={dataList} />
         <InteractiveComponent />
