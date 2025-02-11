@@ -1,8 +1,15 @@
-# React + Vite
+# React Dokumentasjons Galleri
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dette prosjektet er en enkel React-applikasjon som demonstrerer forskjellige teknikker og mønstre brukt i React-komponenter.
 
-Currently, two official plugins are available:
+## Innhold
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Statisk komponent**: En enkel komponent som kun inneholder HTML og CSS.
+- **Props-basert komponent**: En komponent som tar inn props for å tilpasse innholdet.
+- **Wrapper-komponent**: En komponent som bruker "children" for å kapsle inn innhold.
+- **Liste-komponent**: En komponent som rendrer en liste av elementer basert på ett array.
+- **Interaktiv komponent**: En komponent som har en interaktiv funksjon.
+- **Fetch-data komponent**: En komponent som fetcher data.
+- **Animasjon-komponent**: En komponent som bruker CSS for å lage en liten animasjon.
+
+
